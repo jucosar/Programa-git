@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #024377;
+}
+#contenedor{
+	width: 850px;
+	height: 900px;
+	margin: auto;
+	background: rgb(26, 122, 160);
+	border-radius: 0px;
+	margin-top:0px;
+}
+header{
+	width: 850px;
+	height: 250px;
+	background: rgb(1, 70, 110);
+	margin-top: 0px;
+}
+#banner{
+	width: 600px;
+	height: 250px;
+	background: rgb(247, 246, 252);
+	float: left;
+
+}
+nav{
+	width: 850px;
+	height:40px;
+	background: rgb(184, 212, 243);
+	margin-top: 10px;
+
+}
+/*para eliminar los puntos y espacios*/
+nav ul{
+	align-content: center;
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+}
+/*Para que sea flotante a izquierda */
+nav ul li{
+	float: left;
+}
+nav a{
+	color: rgb(1, 5, 15);
+	text-decoration: none;
+	display: block;
+	padding: 12px;
+}
+main{
+	width: 850px;
+	height: 600px;
+	background: #045ce0;
+	margin-top: 10px;
+}
+article{
+	width: 800px;
+	height: 700px;
+	float: left;
+	background: rgb(5, 27, 34);
+}
+footer{
+	background: rgb(163, 192, 206);
+	clear: both;
+	padding-bottom:10px;
+}
+.resaltar:hover{
+	color: rgb(216, 110, 11);
+}
+.menu{
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+}
+.selected{
+	color:#ca6f07
+}
